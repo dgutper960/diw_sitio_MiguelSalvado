@@ -1,4 +1,4 @@
-# Guia de estilos de Miguel Salvado
+# Hoja de estilos de Miguel Salvado
 Tras una primera reunión con el cliente, se han concretado los puntos fundamentales a tener en cuenta para el desarrollo del proyecto, los cuales, se enumeran a continuación:
 
 ### a. Ideas generales de la web 
