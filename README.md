@@ -5,6 +5,32 @@
 
 # UTOI - Guía estilos
 ## 1. Público Objetivo
+
+Público objetivo principal usuario de la web:
+
+DEMOGRAFÍA
+    - Edad: 25-75 años.
+    - Género: Todos los géneros.
+    - Nivel socioeconómico: Medio y alto:
+    - Ubicación: Principalmente urbano y suburbano.
+
+INTERESES Y AFICIONES
+   - Fotografía como hobby o interés.
+   - Viajes y aventura.
+   - Arte y cultura.
+   - Tecnología y últimas tendencias en fotografía.
+
+USO DE INTERNET
+   - Uso frecuente de internet y redes sociales.
+   - Consumidores de contenido en blogs de fotografía.
+   - Participantes de cursos y concursos de fotografía online.
+
+OBJETIVOS AL VISITAR EL SITIO WEB
+  - Contratar al fotógrafo para eventos.
+  - Estudiar diferentes estilos fotográficos.
+  - Comprar productos ofrecidos en la web.
+
+
 ## 2. Tipo de web
 ## 3. Elementos de diseño
 ## 4. Colores de la web
@@ -20,7 +46,7 @@ Tras un primer análisis, se han hecho unos bocetos a mano y posteriormente se h
 - Secondary
 #FFFFFF
 
-### Colres Páginas
+### Colores Páginas
 - Very Dark Gray (mostly black)
 #181818
 
