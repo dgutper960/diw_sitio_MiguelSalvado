@@ -45,7 +45,22 @@ Se ha requerido una con serifa por lo que se ha optado por las fuentes “Fanwoo
 # UTO2-Diseño
 ## Wireframes del sitio
 #### Landing Page
-![Landing Page](https://github.com/dgutper960/diw_sitio_MiguelSalvado/blob/master/src/assets/images/wireframes/Miguel%20Salvado%20-%20Landyng%20Page%20_%20Sobre%20Mi.png)
+![Landyng Page](src\assets\images\wireframes\LandingPage.png)
+
+#### Sobre Mi
+![Sobre mi](src\assets\images\wireframes\SobreMi.png)
+
+#### Premios
+![Premios](src\assets\images\wireframes\Premios.png)
+
+#### Proyectos
+![Proyectos](src\assets\images\wireframes\Proyectos.png)
+
+#### Proyecto Elegido
+![ProyectoElegido](src\assets\images\wireframes\ProyectoElegido.png)
+
+#### Contacto
+![Contacto](src\assets\images\wireframes\Contacto.png)
 
 ## Enlace proyecto figma 
 
