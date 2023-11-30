@@ -70,8 +70,8 @@ Se ha requerido una con serifa por lo que se ha optado por las fuentes “Fanwoo
 
 # UTO2-Diseño
 ## Wireframes del sitio
-
-![Pagina Inicio](assets/images/Premios.png)
+#### Landing Page
+![Landing Page](https://github.com/dgutper960/diw_sitio_MiguelSalvado/blob/master/src/assets/images/wireframes/Miguel%20Salvado%20-%20Landyng%20Page%20_%20Sobre%20Mi.png)
 
 ## Enlace proyecto figma 
 
