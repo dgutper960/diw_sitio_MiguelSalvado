@@ -9,10 +9,10 @@
 Público objetivo principal usuario de la web:
 
 DEMOGRAFÍA
-- Edad: 25-75 años.
-- Género: Todos los géneros.
-- Nivel socioeconómico: Medio y alto:
-- Ubicación: Principalmente urbano y suburbano.
+  - Edad: 25-75 años.
+  - Género: Todos los géneros.
+  - Nivel socioeconómico: Medio y alto:
+  - Ubicación: Principalmente urbano y suburbano.
 
 INTERESES Y AFICIONES
    - Fotografía como hobby o interés.
