@@ -70,8 +70,11 @@ Se ha requerido una con serifa por lo que se ha optado por las fuentes “Fanwoo
 
 # UTO2-Diseño
 ## Wireframes del sitio
-#### Landing Page
-![Landyng Page](src\assets\images\wireframes\LandingPage.png)
+#### Landing Page Menu
+![Landyng Page Hamburger](src\assets\images\wireframes\LandingPageHamburger.png)
+
+#### Landing Page Desplegado
+![Landyng Page Desplegado](src\assets\images\wireframes\LandingPageDesplegado.png)
 
 #### Sobre Mi
 ![Sobre mi](src\assets\images\wireframes\SobreMi.png)
