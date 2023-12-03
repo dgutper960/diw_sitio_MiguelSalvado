@@ -32,6 +32,7 @@ OBJETIVOS AL VISITAR EL SITIO WEB
 
 
 ## 2. Tipo de web
+Web centrada en la figura de Miguel Salvado, fotógrafo y docente en la UAL (Universidad de Arte de Londres). En este lugar los usuarios podrán saber más sobre su persona, además de poder observar sus obras y sus trabajos galardonados.
 ## 3. Elementos de diseño
  Tras el primer acercamiento al cliente, hemos podido dislucidar una serie de elementos fundamentales que harán de nuestro proyecto diferente del resto.
 ### Homepage o Landing Page
@@ -41,13 +42,13 @@ Se ha optado por mostrar el nombre del cliente, junto con un menú de tipo "hamb
 
 Por último, tendremos un footer de tamaño mínimo con la información legal del cliente (copyright, etc.). Este footer será el mismo para todas las páginas del sitio.
 
-### Zona de Navegación
-A execpción del landing page, encontramos en el resto de páginas una zona de navegación con toques minimalistas, que contendrá una serie de apartados específicados por el cliente:
-- Sobre mí
-- Proyectos
-- Premios
-- Contacto
-
+### Header/Zona de Navegación
+En header encontramos tanto la zona de navegación como el titúlo de la página web. Este header aparecerá en todas las páginas excepto en la landing page.
+La zona de navegación tendrá un diseño con toques minimalistas, que contendrá una serie de apartados específicados por el cliente:
+- Sobre mí --> Biografía de Miguel Salvado 
+- Proyectos --> Todas las obras de Miguel Salvado (ordenadas de más nuevas a más antiguas)
+- Premios --> Todas las obras que han sido galardonadas
+- Contacto --> Lugar donde se podrá enviar al client
 ### Footer
 Tendrá un tamaño reducido, en comparación al resto de elementos. El cliente solicitó que allí se mostrara todo lo relacionado con el apartado legal.
 ## 4. Colores de la web
@@ -88,25 +89,25 @@ Se ha requerido una con serifa por lo que se ha optado por las fuentes “Fanwoo
 # UTO2-Diseño
 ## Wireframes del sitio
 #### Landing Page Menu
-![Landyng Page Hamburger](src\assets\images\wireframes\LandingPageHamburger.png)
+![Landyng Page Hamburger](https://raw.githubusercontent.com/dgutper960/diw_sitio_MiguelSalvado/master/src/assets/images/wireframes/LandingPageHamburger.png)
 
 #### Landing Page Desplegado
-![Landyng Page Desplegado](src\assets\images\wireframes\LandingPageDesplegado.png)
+![Landyng Page Desplegado](https://raw.githubusercontent.com/dgutper960/diw_sitio_MiguelSalvado/master/src/assets/images/wireframes/LandingPageDesplegado.png)
 
 #### Sobre Mi
-![Sobre mi](src\assets\images\wireframes\SobreMi.png)
+![Sobre mi](https://raw.githubusercontent.com/dgutper960/diw_sitio_MiguelSalvado/master/src/assets/images/wireframes/SobreMi.png)
 
 #### Premios
-![Premios](src\assets\images\wireframes\Premios.png)
+![Premios](https://raw.githubusercontent.com/dgutper960/diw_sitio_MiguelSalvado/master/src/assets/images/wireframes/Premios.png)
 
 #### Proyectos
-![Proyectos](src\assets\images\wireframes\Proyectos.png)
+![Proyectos](https://raw.githubusercontent.com/dgutper960/diw_sitio_MiguelSalvado/master/src/assets/images/wireframes/Proyectos.png)
 
 #### Proyecto Elegido
-![ProyectoElegido](src\assets\images\wireframes\ProyectoElegido.png)
+![ProyectoElegido](https://raw.githubusercontent.com/dgutper960/diw_sitio_MiguelSalvado/master/src/assets/images/wireframes/ProyectoElegido.png)
 
 #### Contacto
-![Contacto](src\assets\images\wireframes\Contacto.png)
+![Contacto](https://raw.githubusercontent.com/dgutper960/diw_sitio_MiguelSalvado/master/src/assets/images/wireframes/Contacto.png)
 
 ## Enlace proyecto figma 
 
