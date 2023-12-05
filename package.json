@@ -1,6 +1,6 @@
 {
-  "name": "Sitio Miguel Salvado",
-  "version": "3.7.0",
+  "name": "SitioMiguelSalvado",
+  "version": "1.0.0",
   "private": true,
   "description": "Boilerplate for Advanced HTML/CSS Tools UOC students",
   "scripts": {
@@ -22,12 +22,20 @@
     }
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/uoc-advanced-html-css/uoc-boilerplate.git"
+    "type": "github",
+    "url": "https://github.com/dgutper960/diw_sitio_MiguelSalvado.git"
   },
-  "author": {
-    "name": "Jordi Tarrida",
-    "email": "jorditarrida@uoc.edu"
+  "author1": {
+    "name": "David Gutiérrez Pérez",
+    "email": "dgutper960@g.educaand.es"
+  },
+  "author2": {
+    "name": "Ana López Atero",
+    "email": "alopate093@g.educaand.es"
+  },
+  "author3": {
+    "name": "Daniel Alfonso Rodriguez Santos",
+    "email": "drodsan2708@g.educaand.es"
   },
   "license": "MIT",
   "bugs": {
