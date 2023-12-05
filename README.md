@@ -26,9 +26,7 @@ USO DE INTERNET
    - Participantes de cursos y concursos de fotografía online.
 
 OBJETIVOS AL VISITAR EL SITIO WEB
-  - Contratar al fotógrafo para eventos.
-  - Estudiar diferentes estilos fotográficos.
-  - Comprar productos ofrecidos en la web.
+  - Difusión de la obra del cliente.
 
 
 ## 2. Tipo de web
