@@ -1,30 +1,54 @@
-/**
- * Use this file to import partials.
- * Do not include SCSS code in this file.
- */
+body{
+    margin: 0%;
 
-/**
- * Import variables
- */
+    display: grid;
+    // grid-template-columns: 0.5fr 1fr*22 0.5fr;
+    grid-template-columns: 0.5fr repeat(22, 1fr) 0.5fr;
+    grid-template-rows: 10vh minmax(85vh, auto) 5vh;
+}
 
-@import "variables";
 
-/**
- * Import npm dependencies
- * see: https://v2.parceljs.org/features/module-resolution/
- * see commented examples below
- */
+.header{
+    grid-row: 1;
+    grid-column: 2/24;
 
-// @import "some-node-module";
-// @import "@some-company/some-node-module";
+    background-color: antiquewhite;
 
-/**
- * Import layouts
- * It's a best practice to use a different partial for each page
- */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-@import "layouts/home";
+    .header__zonaTitulo{
+        margin-left: 100px;
+    }
 
-/**
- * Do NOT include anything else in this file!
- */
+    .header__zonaNav{
+        .a_nav{
+            padding-right: 30px;
+        }
+    }
+
+}
+
+.main{
+    grid-column: 2/24;
+    grid-row: 2;
+
+    background-color: rgb(212, 142, 57);
+}
+
+
+.footer{
+    grid-column: 1/25;
+    grid-row: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+
+    .copy{
+        color: azure;
+    }
+}
