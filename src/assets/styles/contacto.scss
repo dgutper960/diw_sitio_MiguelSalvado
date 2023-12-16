@@ -1,0 +1,140 @@
+body {
+  margin: 0%;
+
+  display: grid;
+  // grid-template-columns: 0.5fr 1fr*22 0.5fr;
+  grid-template-columns: 0.5fr repeat(22, 1fr) 0.5fr;
+  grid-template-rows: 10vh minmax(85vh, auto) 5vh;
+}
+
+.cont--header {
+  grid-row: 1;
+  grid-column: 2/24;
+
+  background-color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .cont--header__zonaTitulo {
+    margin-left: 100px;
+    text-decoration: none;
+    color:black;
+    font-style: italic;
+    a {
+        margin-left: 100px;
+        text-decoration: none;
+        color:black;
+        font-style: italic;
+    }
+  }
+
+  .cont--header__zonaNav {
+    .cont--a_nav {
+        padding-right: 50px;
+        text-decoration: none;
+        color:black;
+        font-style: italic;
+    }
+
+    .cont--contacto{
+        padding-right: 50px;
+        text-decoration: none;
+        color:black;
+        font-style: italic;
+
+        font-weight: bold;
+    }
+  }
+}
+
+.cont--main {
+  grid-column: 2/24;
+  grid-row: 2;
+
+  background-color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  .cont--main__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-color: lightgrey;
+    width: 75%;
+    height: 75vh;
+
+    .cont--main__zonaForm {
+      width: 70%;
+      background-color: lightgrey;
+      justify-content: center;
+      align-items: center;
+      margin-left: 175px;
+
+      font-size: 20px;
+
+      .cont--input {
+        width: 550px;
+        height: 25px;
+
+        margin-bottom: 30px;
+      }
+
+      .cont--button {
+        width: auto;
+        background-color: black;
+        color: lightgrey;
+        width: 125px;
+        height: 30px;
+        font-size: 1rem;
+        border: none;
+        margin-top: 12px;
+        margin-right: 17px;
+      }
+    }
+
+    .cont--main__zonaRedes {
+      width: 35%;
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      align-items: center;
+      background-color: lightgray;
+    
+
+      .cont--zonaRedes__column {
+        display: flex;
+        flex-direction: column;
+        justify-items: start;
+        align-items: center;
+        background-color: lightgray;
+
+        img {
+          padding: 15px;
+          height: 100px;
+        }
+      }
+    }
+  }
+}
+
+.cont--footer {
+  grid-column: 1/25;
+  grid-row: 3;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: black;
+
+  .cont--copy {
+    color: lightgrey;
+  }
+}
