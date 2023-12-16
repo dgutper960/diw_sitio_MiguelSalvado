@@ -109,3 +109,15 @@ Se ha requerido una con serifa por lo que se ha optado por las fuentes “Fanwoo
 
 ## Enlace proyecto figma 
 
+
+#### Nota para Dani:
+Se ha detectado una inviavilidad en la funcionalidad del menu hamburguer:
+##### Como solución para cumplir con los plazos se ha propuesto:
+- Suprimir el mú hamburguer
+- Se implementará un hover a toda la caja del titulo principal
+    - Cuando el ratón pasa por el título se despliega un mení que permanece oculto
+    - El menú oculto es el mismo que se propuso inicialmente.
+    - Respecto a la visibilidad de los elementos se contemplan dos opciones:
+        - La posición del menú podrá ser justo debajo el título manteniendose ambos visibles.
+        - La posición del menú podrá sustituir al título desapareciendo uno y apareciendo el otro. 
+
