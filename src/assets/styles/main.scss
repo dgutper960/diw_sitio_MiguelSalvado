@@ -7,6 +7,13 @@ body{
     grid-template-rows: 10vh minmax(85vh, auto) 5vh;
 }
 
+
+h1, h2, a{
+    margin: none;
+    text-decoration: none;
+    color: black;
+}
+
 .header__zonaNav{
     padding-right: 50px;
     .premio_a_nav{

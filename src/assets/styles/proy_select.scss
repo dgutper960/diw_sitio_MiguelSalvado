@@ -1,0 +1,148 @@
+body{
+    margin: 0%;
+
+    display: grid;
+    // grid-template-columns: 0.5fr 1fr*22 0.5fr;
+    grid-template-columns: 0.5fr repeat(22, 1fr) 0.5fr;
+    grid-template-rows: 10vh minmax(85vh, auto) 5vh;
+}
+
+
+h1, h2, a{
+    margin: none;
+    text-decoration: none;
+    color: black;
+}
+
+.select--header__zonaNav{
+    padding-right: 50px;
+    .select--premio_a_nav{
+        padding-right: 50px;
+        text-decoration: none;
+        color:black;
+        font-style: italic;
+    }
+}
+
+
+.select--header{
+    grid-row: 1;
+    grid-column: 2/24;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .select--header__zonaTitulo{
+        margin-left: 100px;
+        text-decoration: none;
+        color:black;
+        font-style: italic;
+
+    }
+
+    .select--header__zonaNav{
+        .select--a_nav{
+            padding-right: 50px;
+            text-decoration: none;
+            color:black;
+            font-style: italic;
+        }
+    }
+
+}
+
+.select--main{
+    grid-column: 2/24;
+    grid-row: 2;
+
+    background-color: white;
+
+    .select--container{
+
+        margin-top: 25px;
+        margin-bottom: 25px;
+        background-color: antiquewhite;
+        width: 100%;
+        height: 95%;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        .select--zonaFoto{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-color: lightgrey;
+
+            
+            width: 75%;
+            height: 100%;
+
+        }
+
+        .select--zonaTexto{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-color: lightgrey;
+            color: aliceblue;
+
+            width: 75%;
+            height: 100%;
+
+            .select--zonaTexto__cajaTexto{
+
+                width: 85%;
+                height: 90%;
+
+                background-color: rgba(43, 41, 41, 0.527);
+
+                .select--zonaTexto__h2{
+
+                    text-align: center;
+                    font-family: 'Courier New', Courier, monospace;
+                    font-size: 2em;
+                    color: aliceblue;
+
+                }
+                .select--zonaTexto__p{
+
+                    padding: 15px;
+
+                    text-align: justify;
+
+                    font-family: 'Courier New', Courier, monospace;
+                    font-size: 18px;
+
+                }
+            }
+
+
+        }
+    }
+}
+
+
+.select--footer{
+    grid-column: 1/25;
+    grid-row: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+
+    .select--copy{
+        color: azure;
+    }
+}
