@@ -1,3 +1,12 @@
+$color-fuente-principal: #000000;
+$color-fuente-secundaria: #FFFFFF;
+
+$color-very-darck-gray: #181818;
+$color-darck-transp: #18181877;
+$color-gray: #AAAAAA;
+$color-very-light-gray: #F1F1F1;
+$color-very-light-gray-plus: #EBEBEB;
+
 body{
   margin: 0%;
 
@@ -5,13 +14,15 @@ body{
   // grid-template-columns: 0.5fr 1fr*22 0.5fr;
   grid-template-columns: 0.5fr repeat(22, 1fr) 0.5fr;
   grid-template-rows: 10vh minmax(85vh, auto) 5vh;
+
+  background-color: $color-very-light-gray-plus;
 }
 
 
 h1, h2, a{
   margin: none;
   text-decoration: none;
-  color: black;
+  color: $color-fuente-principal;
 }
 
 .header__zonaNav{
@@ -19,7 +30,7 @@ h1, h2, a{
   .premio_a_nav{
       padding-right: 50px;
       text-decoration: none;
-      color:black;
+      color:$color-fuente-principal;
       font-style: italic;
   }
 }
@@ -29,7 +40,7 @@ h1, h2, a{
   grid-row: 1;
   grid-column: 2/24;
 
-  background-color: antiquewhite;
+  background-color: $color-very-light-gray-plus;
 
   display: flex;
   justify-content: space-between;
@@ -38,7 +49,7 @@ h1, h2, a{
   .header__zonaTitulo{
       margin-left: 100px;
       text-decoration: none;
-      color:black;
+      color: $color-fuente-principal;
       font-style: italic;
   }
 
@@ -46,13 +57,13 @@ h1, h2, a{
       .a_nav{
           padding-right: 50px;
           text-decoration: none;
-          color:black;
+          color:$color-fuente-principal;
           font-style: italic;
       }
       .select--a_nav{
         padding-right: 50px;
         text-decoration: none;
-        color:black;
+        color:$color-fuente-principal;
         font-style: italic;
         font-weight: bold;
       }
@@ -64,7 +75,7 @@ h1, h2, a{
   grid-column: 2/24;
   grid-row: 2;
 
-  background-color: white;
+  background-color: $color-very-light-gray-plus;
   display: flex;
   flex-direction: row;
 
@@ -74,14 +85,14 @@ h1, h2, a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: $color-very-light-gray-plus;
     .premio_container_foto {
       display: flex;
       flex-direction: column;
       justify-content: center;
       justify-items: center;
       align-items: center;
-      background-color: white;
+      background-color: $color-very-light-gray-plus;
       // margin-top: 40px;
     //   margin-left: 150px;
     //   margin-right: 80px;
@@ -91,13 +102,13 @@ h1, h2, a{
         justify-content: center;
         justify-items: center;
         align-items: center;
-        background-color: black;
+        background-color: $color-very-darck-gray;
         // margin-left: 120px;
         margin-right: 55px;
         height: 60px;
         width: 500px;
         h1 {
-          color: white;
+          color: $color-fuente-secundaria;
           text-align: center;
           //    padding-top: 8px;
         }
@@ -119,7 +130,7 @@ h1, h2, a{
     width: auto;
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: $color-very-light-gray-plus;
     margin-top: 100px;
     margin-right: 100px;
 
@@ -130,14 +141,14 @@ h1, h2, a{
     //   margin-left: 80px;
     //   margin-right: 80px;
       a {
-        color: white;
+        color: $color-fuente-secundaria;
       }
 
       #activado {
-        background-color: darkgrey;
+        background-color: $color-gray;
 
         a {
-          color: black;
+          color: $color-fuente-principal;
         }
       }
       .premio1,
@@ -146,13 +157,13 @@ h1, h2, a{
       .premio4,
       .premio5,
       .premio_volver {
-        background-color: black;
+        background-color: $color-very-darck-gray;
         margin-left: 80px;
         margin-right: 80px;
         height: 70px;
         width: 400px;
         h2 {
-          color: white;
+          color: $color-fuente-secundaria;
           text-align: center;
           padding-top: 20px;
         }
@@ -169,9 +180,9 @@ h1, h2, a{
   justify-content: center;
   align-items: center;
 
-  background-color: black;
+  background-color: $color-very-darck-gray;
 
   .premio_copy {
-    color: azure;
+    color: $color-fuente-secundaria;
   }
 }

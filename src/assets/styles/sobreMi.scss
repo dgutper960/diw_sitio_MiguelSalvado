@@ -1,25 +1,36 @@
+$color-fuente-principal: #000000;
+$color-fuente-secundaria: #FFFFFF;
+
+$color-very-darck-gray: #181818;
+$color-darck-transp: #18181877;
+$color-gray: #AAAAAA;
+$color-very-light-gray: #F1F1F1;
+$color-very-light-gray-plus: #EBEBEB;
+
 body{
-    margin: 0%;
-  
-    display: grid;
-    // grid-template-columns: 0.5fr 1fr*22 0.5fr;
-    grid-template-columns: 0.5fr repeat(22, 1fr) 0.5fr;
-    grid-template-rows: 10vh minmax(85vh, auto) 5vh;
-  }
-  
-  
-  h1, h2, a{
-    margin: none;
-    text-decoration: none;
-    color: black;
-  }
+  margin: 0%;
+
+  display: grid;
+  // grid-template-columns: 0.5fr 1fr*22 0.5fr;
+  grid-template-columns: 0.5fr repeat(22, 1fr) 0.5fr;
+  grid-template-rows: 10vh minmax(85vh, auto) 5vh;
+
+  background-color: $color-very-light-gray-plus;
+}
+
+
+h1, h2, a{
+  margin: none;
+  text-decoration: none;
+  color: $color-fuente-principal;
+}
   
   .header__zonaNav{
     padding-right: 50px;
     .premio_a_nav{
         padding-right: 50px;
         text-decoration: none;
-        color:black;
+        color:$color-fuente-principal;
         font-style: italic;
     }
   }
@@ -29,7 +40,7 @@ body{
     grid-row: 1;
     grid-column: 2/24;
   
-    background-color: antiquewhite;
+    background-color: $color-very-light-gray-plus;
   
     display: flex;
     justify-content: space-between;
@@ -38,7 +49,7 @@ body{
     .header__zonaTitulo{
         margin-left: 100px;
         text-decoration: none;
-        color:black;
+        color:$color-fuente-principal;
         font-style: italic;
     }
   
@@ -46,13 +57,13 @@ body{
         .a_nav{
             padding-right: 50px;
             text-decoration: none;
-            color:black;
+            color:$color-fuente-principal;
             font-style: italic;
         }
         .select--a_nav{
             padding-right: 50px;
             text-decoration: none;
-            color:black;
+            color:$color-fuente-principal;
             font-style: italic;
             font-weight: bold;
           }
@@ -64,13 +75,13 @@ body{
     
     grid-column: 2/24;
     grid-row: 2;
-    background-color: white;
+    background-color: $color-very-light-gray-plus;
     display: flex;
     flex-direction: row;
 
     .mi_container{
         display: flex;
-        background-color: #D5D8DC;
+        background-color: $color-gray;
         margin-top: 50px;
         margin-left: 50px;
         margin-right: 50px;
@@ -78,7 +89,7 @@ body{
         .mi_foto{
             width: 50%;
             justify-content: center;
-            background-color: #D5D8DC;
+            background-color:  $color-gray;
             margin-top: 40px;
             margin-left: 80px;
             margin-right: 80px;  
@@ -92,7 +103,7 @@ body{
 
         .mi_texto{
             justify-content: center;
-            background-color: #D5D8DC;
+            background-color:  $color-darck-transp;
             margin-top: 40px;
             margin-left: 5px;
             margin-right: 40px;
@@ -101,6 +112,8 @@ body{
             
             .mi_parrafo{
                 text-align: justify;
+                padding: 25px;
+                color: $color-fuente-secundaria;
                 
             }
         }
@@ -117,9 +130,9 @@ body{
     justify-content: center;
     align-items: center;
 
-    background-color: black;
+    background-color: $color-very-darck-gray;
 
     .mi_copy{
-        color: azure;
+        color: $color-fuente-secundaria;
     }
 }
