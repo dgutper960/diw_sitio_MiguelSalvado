@@ -1,77 +1,238 @@
-body{
-    margin: 0%;
+// variables
+$color-fondo-footer: #181818;
+$color-letras-footer: #EFEFEF;
 
-    display: grid;
-    // grid-template-columns: 0.5fr 1fr*22 0.5fr;
-    grid-template-columns: 0.5fr repeat(22, 1fr) 0.5fr;
-    grid-template-rows: 10vh minmax(85vh, auto) 5vh;
+// Tipografía sin serifa
+@font-face {
+    font-family: 'Raleway';
+    src: url(/./src/assets/fonts/raleway/Raleway-ExtraLightItalic.ttf);
 }
 
-
-h1, h2, a{
-    margin: none;
-    text-decoration: none;
-    color: black;
+// Tipografía con serifa
+@font-face {
+    font-family: 'Fanwood';
+    src: url(/./src/assets/fonts/fanwood/FanwoodText-Italic.ttf);
 }
 
-.header__zonaNav{
-    padding-right: 50px;
-    .premio_a_nav{
-        padding-right: 50px;
-        text-decoration: none;
-        color:black;
-        font-style: italic;
-    }
+// Valores del body reestablecido
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
+.body__zonaCarrusel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 93vh;
+    overflow: hidden;
+    z-index: -1;
 
-.header{
-    grid-row: 1;
-    grid-column: 2/24;
+    ul {
+        display: flex;
+        padding: 0;
+        margin: 0; // ul cuenta con margenes por defecto, al igual que en el body
+        width: calc(100%*5);
+        /* Ajusta el valor según la cantidad de imágenes */
+        animation: slide 20s infinite alternate ease-in-out;
 
-    background-color: antiquewhite;
+        li {
+            width: 20%;
+            /* Ajusta el valor según la cantidad de imágenes */
+            list-style: none;
+            position: relative;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    .header__zonaTitulo{
-        margin-left: 100px;
-        text-decoration: none;
-        color:black;
-        font-style: italic;
-    }
-
-    .header__zonaNav{
-        .a_nav{
-            padding-right: 50px;
-            text-decoration: none;
-            color:black;
-            font-style: italic;
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
         }
     }
 
-}
+    @keyframes slide {
+        0% {
+            margin-left: 0;
+        }
 
-.main{
-    grid-column: 2/24;
-    grid-row: 2;
+        20% {
+            margin-left: 0;
+        }
 
-    background-color: rgb(212, 142, 57);
-}
+        25% {
+            margin-left: -100%;
+        }
 
+        45% {
+            margin-left: -100%;
+        }
 
-.footer{
-    grid-column: 1/25;
-    grid-row: 3;
+        50% {
+            margin-left: -200%;
+        }
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        70% {
+            margin-left: -200%;
+        }
 
-    background-color: black;
+        75% {
+            margin-left: -300%;
+        }
 
-    .copy{
-        color: azure;
+        100% {
+            margin-left: -300%;
+        }
     }
 }
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    max-height: 93vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    .main__zonaTitulo {
+        grid-column: 2/5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        padding: 0;
+        background-color: rgba(24, 24, 24, 0.58);
+        ;
+
+        h1 {
+            font-family: Raleway, sans-serif;
+            font-style: italic;
+            color: $color-letras-footer;
+            text-align: center;
+            font-size: 3.25rem;
+        }
+    }
+
+    .main__nav {
+        grid-column: 2/3;
+        display: flex;
+        flex-direction: column;
+        margin-top: 12px;
+        justify-content: center;
+        align-items: flex-start;
+        transition: width 0.3s ease;
+
+        .nav__menuHamburguer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            background-color: rgba(245, 245, 245, 0.58);
+            border-radius: 10px;
+            padding: 2px;
+            transition: all 0.5s ease-in;
+
+            .menuHamburguer__span {
+                width: 40px;
+                height: 6px;
+                margin: 2px;
+                border-radius: 10px;
+                background-color: black;
+                transition: all 0.2s ease-out;
+            }
+        }
+
+        .nav__menuHamburguer:hover {
+            .menuHamburguer__span:nth-child(2) {
+                width: 60%;
+                margin-top: 2px;
+                background-color: #d3d3d3;
+            }
+
+            .nav__menuHamburguer:hover {
+                .menuHamburguer__span:nth-child(2) {
+                    width: 60%;
+                    margin-top: 2px;
+                    background-color: #d3d3d3;
+                }
+            }
+        }
+
+
+    }
+
+    .main__menuDesplegable {
+        grid-column: 2/3;
+        display: flex;
+        flex-direction: column;
+        margin-right: -25px;
+        //padding: 10px; // Ajusta el espacio interno al menú
+        border-radius: 5px;
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                width: 150px; // Establece el ancho fijo para todos los elementos li
+                height: 50px; // Establece la altura fija para todos los elementos li
+                margin-bottom: 31px;
+                object-fit: cover;
+
+                a {
+                    width: 100%; // Toma el 100% del ancho del elemento li
+                    height: 100%; // Toma el 100% de la altura del elemento li
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: rgba(24, 24, 24, 0.70);
+                    color: #efefef;
+                    text-decoration: none;
+                    font-family: 'Fanwood', serif;
+                    text-align: center;
+                    font-size: 1.3em;
+                    padding: 15px;
+                    border-bottom: 2px solid whitesmoke;
+                    transition: background-color 0.3s ease;
+                    &.menuDesplegable__enlace-final {
+                        border-bottom: none;
+                      }
+
+                    &:hover {
+                        background-color: #141414;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+    .main__zonaContenido {
+        grid-column: 2/12;
+        min-height: 93vh;
+    }
+}
+
+.footer {
+    display: flex;
+    height: 7vh;
+    align-items: center;
+    justify-content: center;
+    background-color: $color-fondo-footer;
+    color: $color-letras-footer;
+    font-size: 1.08em;
+    font-family: Raleway, sans-serif;
+}
+
+/* Diseño Resposive */

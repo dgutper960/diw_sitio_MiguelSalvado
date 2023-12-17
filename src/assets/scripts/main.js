@@ -1,16 +1,24 @@
-/**
- * Import dependencies from node_modules
- * see commented examples below
- */
+function ocultarMenu() {
+  var menuDesplegable = document.getElementById("menuDesplegable");
+  var ocultarSpans = document.getElementById("clickDesplegarMenu");
 
-// import 'some-node-module';
-// import SomeModule from 'some-node-module';
+  if (menuDesplegable.style.display !== "none") {
+    menuDesplegable.style.display = "none";
+    ocultarSpans.style.display = "flex";
+  }
+}
 
-/**
- * Write any other JavaScript below
- */
+function desplegarMenu() {
+  var menuDesplegable = document.getElementById("menuDesplegable");
+  var ocultarSpans = document.getElementById("clickDesplegarMenu");
 
-+( function() {
-  const university = "UOC";
-  console.log(`Hello, ${university}!`);
-} )();
+  if (menuDesplegable.style.display === "none") {
+    menuDesplegable.style.display = "block";
+    ocultarSpans.style.display = "none";
+  }
+}
+
+document.getElementById("menuDesplegable").addEventListener("mouseleave", ocultarMenu);
+
+document.getElementById("clickDesplegarMenu").addEventListener("click", desplegarMenu);
+
