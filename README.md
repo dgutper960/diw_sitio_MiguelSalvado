@@ -15,18 +15,19 @@ DEMOGRAFÍA
   - Ubicación: Principalmente urbano y suburbano.
 
 INTERESES Y AFICIONES
-   - Fotografía como hobby o interés.
-   - Viajes y aventura.
-   - Arte y cultura.
-   - Tecnología y últimas tendencias en fotografía.
+  - Fotografía como hobby o interés.
+  - Viajes y aventura.
+  - Arte y cultura.
+  - Tecnología y últimas tendencias en fotografía.
 
 USO DE INTERNET
-   - Uso frecuente de internet y redes sociales.
-   - Consumidores de contenido en blogs de fotografía.
-   - Participantes de cursos y concursos de fotografía online.
+  - Uso frecuente de internet y redes sociales.
+  - Consumidores de contenido en blogs de fotografía.
+  - Participantes de cursos y concursos de fotografía online.
 
 OBJETIVOS AL VISITAR EL SITIO WEB
   - Difusión de la obra del cliente.
+
 
 
 ## 2. Tipo de web
@@ -108,16 +109,3 @@ Se ha requerido una con serifa por lo que se ha optado por las fuentes “Fanwoo
 ![Contacto](https://raw.githubusercontent.com/dgutper960/diw_sitio_MiguelSalvado/master/src/assets/images/wireframes/Contacto.png)
 
 ## Enlace proyecto figma 
-
-
-#### Nota para Dani:
-Se ha detectado una inviavilidad en la funcionalidad del menu hamburguer:
-##### Como solución para cumplir con los plazos se ha propuesto:
-- Suprimir el mú hamburguer
-- Se implementará un hover a toda la caja del titulo principal
-    - Cuando el ratón pasa por el título se despliega un mení que permanece oculto
-    - El menú oculto es el mismo que se propuso inicialmente.
-    - Respecto a la visibilidad de los elementos se contemplan dos opciones:
-        - La posición del menú podrá ser justo debajo el título manteniendose ambos visibles.
-        - La posición del menú podrá sustituir al título desapareciendo uno y apareciendo el otro. 
-
