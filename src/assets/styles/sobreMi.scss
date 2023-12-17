@@ -1,40 +1,64 @@
-
-
-.mi_body{
-    
+body{
+    margin: 0%;
+  
     display: grid;
     // grid-template-columns: 0.5fr 1fr*22 0.5fr;
     grid-template-columns: 0.5fr repeat(22, 1fr) 0.5fr;
     grid-template-rows: 10vh minmax(85vh, auto) 5vh;
-}
-
-
-.mi_header{
+  }
+  
+  
+  h1, h2, a{
+    margin: none;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .header__zonaNav{
+    padding-right: 50px;
+    .premio_a_nav{
+        padding-right: 50px;
+        text-decoration: none;
+        color:black;
+        font-style: italic;
+    }
+  }
+  
+  
+  .header{
     grid-row: 1;
     grid-column: 2/24;
-    
-    background-color:white;
-    a{
-        text-decoration: none;
-        color: black;
-    }
+  
+    background-color: antiquewhite;
+  
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-style: italic;
-
-    .mi_header__zonaTitulo{
+  
+    .header__zonaTitulo{
         margin-left: 100px;
+        text-decoration: none;
+        color:black;
+        font-style: italic;
     }
-
-    .mi_header__zonaNav{
-        .mi_a_nav{
-            padding-right: 30px;
+  
+    .header__zonaNav{
+        .a_nav{
+            padding-right: 50px;
             text-decoration: none;
+            color:black;
+            font-style: italic;
         }
+        .select--a_nav{
+            padding-right: 50px;
+            text-decoration: none;
+            color:black;
+            font-style: italic;
+            font-weight: bold;
+          }
     }
-
-}
+  
+  }
 
 .mi_main{
     
@@ -50,7 +74,7 @@
         margin-top: 50px;
         margin-left: 50px;
         margin-right: 50px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         .mi_foto{
             width: 50%;
             justify-content: center;
@@ -58,7 +82,7 @@
             margin-top: 40px;
             margin-left: 80px;
             margin-right: 80px;  
-            margin-bottom: 100px;
+            // margin-bottom: 100px;
             .mi_foto_miguel{
                height: 600px;
             }
