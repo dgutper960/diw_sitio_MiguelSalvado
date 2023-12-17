@@ -1,11 +1,5 @@
-$color-fuente-principal: #000000;
-$color-fuente-secundaria: #FFFFFF;
-
-$color-very-darck-gray: #181818;
-$color-darck-transp: #18181877;
-$color-gray: #AAAAAA;
-$color-very-light-gray: #F1F1F1;
-$color-very-light-gray-plus: #EBEBEB;
+// Importamos las variables
+@import 'variables';
 
 body{
   margin: 0%;
@@ -50,7 +44,7 @@ h1, h2, a{
       margin-left: 100px;
       text-decoration: none;
       color:$color-fuente-principal;
-      font-style: italic;
+      font-family: 'Raleway-title',sans-serif;
   }
 
   .header__zonaNav{
@@ -58,14 +52,14 @@ h1, h2, a{
           padding-right: 50px;
           text-decoration: none;
           color:$color-fuente-principal;
-          font-style: italic;
+          font-family: 'Raleway',sans-serif;
       }
       .select--a_nav{
         padding-right: 50px;
         text-decoration: none;
         color:$color-fuente-principal;
-        font-style: italic;
-        font-weight: bold;
+        font-family: 'Raleway-marked',sans-serif;
+        font-size: 1.25em;
       }
   }
 
@@ -140,6 +134,7 @@ h1, h2, a{
     align-items: center;
 
     background-color: $color-very-darck-gray;
+    font-family: 'Raleway-footer',sans-serif;
 
     .proyectos--copy {
       color: $color-fuente-secundaria;

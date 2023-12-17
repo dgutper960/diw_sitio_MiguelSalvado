@@ -12,12 +12,11 @@ body{
   background-color: $color-very-light-gray-plus;
 }
 
-
 h1, h2, a{
-  margin: none;
-  text-decoration: none;
-  color: $color-fuente-principal;
-}
+    margin: none;
+    text-decoration: none;
+    color: $color-fuente-principal;
+  }
   
   .header__zonaNav{
     padding-right: 50px;
@@ -43,7 +42,7 @@ h1, h2, a{
     .header__zonaTitulo{
         margin-left: 100px;
         text-decoration: none;
-        color:$color-fuente-principal;
+        color: $color-fuente-principal;
         font-family: 'Raleway-title',sans-serif;
     }
   
@@ -52,7 +51,7 @@ h1, h2, a{
             padding-right: 50px;
             text-decoration: none;
             color:$color-fuente-principal;
-            font-family: 'Raleway',sans-serif;
+            font-style: italic;
         }
         .select--a_nav{
             padding-right: 50px;
@@ -65,60 +64,86 @@ h1, h2, a{
   
   }
 
-.mi_main{
-    
+.select--main{
     grid-column: 2/24;
     grid-row: 2;
-    background-color: $color-very-light-gray-plus;
-    display: flex;
-    flex-direction: row;
 
-    .mi_container{
-        display: flex;
+    background-color: $color-very-light-gray-plus;
+
+    .select--container{
+
+        margin-top: 25px;
+        margin-bottom: 25px;
         background-color: $color-gray;
-        margin-top: 50px;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-bottom: 20px;
-        .mi_foto{
-            width: 50%;
-            justify-content: center;
-            background-color:  $color-gray;
-            margin-top: 40px;
-            margin-left: 80px;
-            margin-right: 80px;  
-            // margin-bottom: 100px;
-            .mi_foto_miguel{
-               height: 600px;
-            }
-            
-            
+        width: 100%;
+        height: 95%;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        .select--zonaFoto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $color-gray;
+        width: 50%; /* Ajusta el ancho según tus necesidades */
+        height: 100%;
+        margin: 35px;
+        img{
+            max-width: 100%;
+            height: auto;
         }
 
-        .mi_texto{
+        }
+
+        .select--zonaTexto{
+
+            display: flex;
             justify-content: center;
-            background-color:  $color-darck-transp;
-            margin-top: 40px;
-            margin-left: 5px;
-            margin-right: 40px;
-            margin-bottom: 100px;
-            width:100%;
-            
-            .mi_parrafo{
-                text-align: justify;
-                padding: 25px;
-                color: $color-fuente-secundaria;
-                font-family: 'Fanwood',serif;
-                font-size: 1.2em;
-                
+            align-items: center;
+
+            background-color: $color-gray;
+            color: $color-fuente-secundaria;
+
+            width: 75%;
+            height: 100%;
+
+            .select--zonaTexto__cajaTexto{
+
+                width: 85%;
+                height: 90%;
+
+                background-color: $color-darck-transp;
+
+                .select--zonaTexto__h2{
+
+                    text-align: center;
+                    font-family: 'Raleway',sans-serif;
+                    font-size: 2em;
+                    color: $color-fuente-secundaria;
+
+                }
+                .select--zonaTexto__p{
+
+                    padding: 15px;
+
+                    text-align: justify;
+
+                    font-family: 'Fanwood',serif;
+                    font-size: 18px;
+
+                }
             }
+
+
         }
     }
-        
 }
 
 
-.mi_footer{
+.select--footer{
     grid-column: 1/25;
     grid-row: 3;
 
@@ -129,7 +154,7 @@ h1, h2, a{
     background-color: $color-very-darck-gray;
     font-family: 'Raleway-footer',sans-serif;
 
-    .mi_copy{
+    .select--copy{
         color: $color-fuente-secundaria;
     }
 }

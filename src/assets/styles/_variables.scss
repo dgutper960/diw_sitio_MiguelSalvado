@@ -1,1 +1,13 @@
+// Variables con los distintos colores
+$color-fuente-principal: #000000;
+$color-fuente-secundaria: #FFFFFF;
 
+$color-very-darck-gray: #181818;
+$color-darck-transp: #18181877;
+$color-gray: #AAAAAA;
+$color-gray-opacity: rgba(170,170,170,0.5);
+$color-very-light-gray: #F1F1F1;
+$color-very-light-gray-plus: #EBEBEB;
+
+// Especificamos las distintas tipografías
+@import 'fuentes';

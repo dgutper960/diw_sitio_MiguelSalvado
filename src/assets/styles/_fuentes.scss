@@ -1,0 +1,28 @@
+// Tipografía sin serifa (Titulo)
+@font-face {
+    font-family: 'Raleway-title';
+    src: url(/./src/assets/fonts/raleway/Raleway-ExtraLightItalic.ttf) ;
+}
+
+// Tipogrfía sin serifa (remarcar contenido)
+@font-face {
+    font-family: 'Raleway-marked';
+    src: url(/./src/assets/fonts/raleway/Raleway-BoldItalic.ttf) ;
+}
+
+// Tipografía sin serifa (footer)
+@font-face {
+    font-family: 'Raleway-footer';
+    src: url(/./src/assets/fonts/raleway/Raleway-LightItalic.ttf) ;
+}
+// Tipografía sin serifa (Resto del contenido)
+@font-face {
+    font-family: 'Raleway';
+    src: url(/./src/assets/fonts/raleway/Raleway-SemiBoldItalic.ttf) ;
+}
+
+// Tipografía con serifa (parrafo)
+@font-face {
+    font-family: 'Fanwood';
+    src: url(/./src/assets/fonts/fanwood/FanwoodText-Regular.ttf);
+}

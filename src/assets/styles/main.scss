@@ -1,18 +1,5 @@
 // variables
-$color-fondo-footer: #181818;
-$color-letras-footer: #EFEFEF;
-
-// Tipografía sin serifa
-@font-face {
-    font-family: 'Raleway';
-    src: url(/./src/assets/fonts/raleway/Raleway-ExtraLightItalic.ttf);
-}
-
-// Tipografía con serifa
-@font-face {
-    font-family: 'Fanwood';
-    src: url(/./src/assets/fonts/fanwood/FanwoodText-Italic.ttf);
-}
+@import 'variables';
 
 // Valores del body reestablecido
 body {
@@ -103,13 +90,12 @@ body {
         align-items: center;
         margin-top: 10px;
         padding: 0;
-        background-color: rgba(24, 24, 24, 0.58);
-        ;
+        background-color: $color-darck-transp;
 
         h1 {
-            font-family: Raleway, sans-serif;
+            font-family: 'Raleway-title', sans-serif;
             font-style: italic;
-            color: $color-letras-footer;
+            color:$color-fuente-secundaria;
             text-align: center;
             font-size: 3.25rem;
         }
@@ -130,7 +116,7 @@ body {
             justify-content: center;
             align-items: center;
             cursor: pointer;
-            background-color: rgba(245, 245, 245, 0.58);
+            background-color: $color-gray-opacity;
             border-radius: 10px;
             padding: 2px;
             transition: all 0.5s ease-in;
@@ -149,15 +135,7 @@ body {
             .menuHamburguer__span:nth-child(2) {
                 width: 60%;
                 margin-top: 2px;
-                background-color: #d3d3d3;
-            }
-
-            .nav__menuHamburguer:hover {
-                .menuHamburguer__span:nth-child(2) {
-                    width: 60%;
-                    margin-top: 2px;
-                    background-color: #d3d3d3;
-                }
+                background-color: $color-gray;
             }
         }
 
@@ -190,9 +168,9 @@ body {
                     align-items: center;
                     justify-content: center;
                     background-color: rgba(24, 24, 24, 0.70);
-                    color: #efefef;
+                    color: $color-fuente-secundaria;
                     text-decoration: none;
-                    font-family: 'Fanwood', serif;
+                    font-family: 'Raleway-title', sans-serif;
                     text-align: center;
                     font-size: 1.3em;
                     padding: 15px;
@@ -203,7 +181,7 @@ body {
                       }
 
                     &:hover {
-                        background-color: #141414;
+                        background-color: $color-darck-transp;
                     }
                 }
             }
@@ -229,10 +207,10 @@ body {
     height: 7vh;
     align-items: center;
     justify-content: center;
-    background-color: $color-fondo-footer;
-    color: $color-letras-footer;
-    font-size: 1.08em;
-    font-family: Raleway, sans-serif;
+    background-color: $color-very-darck-gray;
+    font-family: 'Raleway-footer',sans-serif;
+    color: $color-fuente-secundaria;
+    
 }
 
 /* Diseño Resposive */
