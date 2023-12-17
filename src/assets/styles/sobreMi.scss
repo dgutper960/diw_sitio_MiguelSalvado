@@ -1,6 +1,7 @@
-.mi_body{
-    margin: 0%;
 
+
+.mi_body{
+    
     display: grid;
     // grid-template-columns: 0.5fr 1fr*22 0.5fr;
     grid-template-columns: 0.5fr repeat(22, 1fr) 0.5fr;
@@ -11,12 +12,16 @@
 .mi_header{
     grid-row: 1;
     grid-column: 2/24;
-
-    background-color: antiquewhite;
-
+    
+    background-color:white;
+    a{
+        text-decoration: none;
+        color: black;
+    }
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-style: italic;
 
     .mi_header__zonaTitulo{
         margin-left: 100px;
@@ -32,10 +37,51 @@
 }
 
 .mi_main{
+    
     grid-column: 2/24;
     grid-row: 2;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
 
-    background-color: rgb(212, 142, 57);
+    .mi_container{
+        display: flex;
+        background-color: #D5D8DC;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 40px;
+        .mi_foto{
+            width: 50%;
+            justify-content: center;
+            background-color: #D5D8DC;
+            margin-top: 40px;
+            margin-left: 80px;
+            margin-right: 80px;  
+            margin-bottom: 100px;
+            .mi_foto_miguel{
+               height: 600px;
+            }
+            
+            
+        }
+
+        .mi_texto{
+            justify-content: center;
+            background-color: #D5D8DC;
+            margin-top: 40px;
+            margin-left: 5px;
+            margin-right: 40px;
+            margin-bottom: 100px;
+            width:100%;
+            
+            .mi_parrafo{
+                text-align: justify;
+                
+            }
+        }
+    }
+        
 }
 
 
